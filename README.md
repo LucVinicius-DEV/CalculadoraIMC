@@ -1,35 +1,57 @@
-# Calculadora de IMC
+![Banner](https://github.com/LucVinicius-DEV/CalculadoraIMC/blob/main/banner.png)
 
-Este programa calcula o IMC (Índice de Massa Corporal) com base no peso e altura informados pelo usuário, e classifica o resultado de acordo com os parâmetros da Organização Mundial da Saúde.
+# ⚖️ Calculadora de IMC em Java
 
-## Como funciona
-
-1. O usuário informa seu **nome**, **peso em kg** e **altura em metros**.
-2. O programa calcula o IMC com a fórmula:
-IMC = peso / (altura²)
-3. O resultado é exibido com **duas casas decimais** e uma **classificação** apropriada.
-
-## Classificações de IMC
-
-| IMC                 | Classificação        |
-|---------------------|----------------------|
-| Menor que 18.5      | Abaixo do peso       |
-| Entre 18.5 e 24.9   | Peso normal          |
-| Entre 25.0 e 29.9   | Sobrepeso            |
-| Entre 30.0 e 34.9   | Obesidade grau 1     |
-| Entre 35.0 e 39.9   | Obesidade grau 2     |
-| 40.0 ou mais        | Obesidade grau 3     |
-
-## Exemplo de execução
-
-Digite seu nome: Lucas Digite seu peso (em kg): 70 Digite sua altura (em metros): 1.75
-
---- Resultado --- Lucas, seu IMC é: 22.86 Classificação: Peso normal
-
-## Tecnologias utilizadas
-
-- Java (JDK 17+)
-- Scanner para entrada de dados
-- Operações matemáticas e condicionais
+Repositório com um programa simples em Java que calcula o **Índice de Massa Corporal (IMC)** com base no peso e altura informados pelo usuário. O projeto tem finalidade didática e reforça a aplicação de fórmulas matemáticas com entrada de dados.
 
 ---
+
+## 📚 Projeto disponível
+
+- [CALCULADORA DE IMC](./src) — Programa que realiza o cálculo do IMC e exibe o resultado de acordo com as classificações da OMS.
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+- Java
+- IntelliJ IDEA
+- Git & GitHub
+
+---
+
+# 🔍 Sobre o Projeto
+
+O objetivo principal é praticar leitura de valores do tipo `double` via terminal, aplicação de fórmula matemática e estrutura condicional para classificar o resultado.
+
+## ✨ Funcionalidades
+
+- Entrada de dados: peso (kg) e altura (m).
+- Cálculo do IMC utilizando a fórmula: `IMC = peso / (altura * altura)`.
+- Classificação do resultado:
+  - Abaixo do peso
+  - Peso normal
+  - Sobrepeso
+  - Obesidade
+- Exibição clara da faixa correspondente.
+
+---
+
+## ▶️ Como executar
+
+1. Clone o repositório ou abra diretamente em sua IDE Java.
+2. Acesse a pasta `/src` e abra o arquivo `Main.java`.
+3. Execute o programa e insira os valores solicitados no terminal.
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por Lucas Vinícius com apoio da Luna, como parte dos estudos de Java e lógica aplicada à saúde e bem-estar.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Lucas%20Vinícius-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/lucas-vin%C3%ADcius-05b41a35b/)  
+[![GitHub](https://img.shields.io/badge/GitHub-LucVinicius--DEV-black?style=flat&logo=github)](https://github.com/LucVinicius-DEV)
+
+---
+
+Se você gostou deste projeto, deixe um ⭐ para apoiar o repositório e acompanhe o progresso pelo [LinkedIn](https://www.linkedin.com/in/lucas-vin%C3%ADcius-05b41a35b/) e pelo [GitHub](https://github.com/LucVinicius-DEV)!
